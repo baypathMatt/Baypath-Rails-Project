@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'fun/page'
+
   get 'items/thing'
 
   get 'site/index'
